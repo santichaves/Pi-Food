@@ -1,0 +1,31 @@
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar input[type="text"] {
+  width: 20rem;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 179, 179);
+  
+
+}
+
+.searchbar button[type="submit"] {
+  background-color: rgb(0, 179, 179);
+  color: #000000;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  margin-left: 10px;
+  cursor: pointer;
+  
+}
+
+.searchbar button[type="submit"]:hover {
+  background-color: rgb(0, 179, 179);
+}

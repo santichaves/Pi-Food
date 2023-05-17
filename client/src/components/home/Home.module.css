@@ -1,0 +1,114 @@
+.cartas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+}
+
+.container{
+    background-color: rgb(129, 115, 159)
+}
+.name{
+    border: 2px rgb(0, 148, 81) solid;
+    width: 23rem;
+    height: 9rem;
+    backdrop-filter: blur(13px);
+    padding-left: 1rem;
+    font-size: large;
+}
+
+.order{
+    display: inline-block;
+    margin:5px;
+    grid-gap: 20px;
+    width: 22rem;
+    height: 7rem;
+    backdrop-filter: blur(7px);
+    padding-left: 1rem;
+    font-size: large;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.page{
+    margin-left: 52rem;
+    font-size: 24px;
+letter-spacing: 0px;
+word-spacing: 2px;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+margin-bottom: 2rem;
+color: rgb(235, 216, 178);
+text-shadow: 1px 1px 2px black, 0 0 25px rgb(251, 142, 255), 0 0 5px rgb(139, 0, 127);
+    
+    
+    
+}
+.reload{
+    background-color: rgb(0, 179, 179);
+    border-radius: 5px;
+    box-shadow: rgb(0, 76, 197) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 130px;
+    height: 55px;
+    color: #070707;
+    border: none;   
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    margin-left: 3rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: medium;
+    
+}
+
+select {
+    display: block;
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 9px;
+    margin-right: 10px;
+    background-color: rgb(0, 179, 179);
+}
+.pagination {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .pagination button {
+    border: none;
+    background-color: rgb(0, 179, 179);
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #ccc;
+  }
+.srch{
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    color:rgb(235, 216, 178);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(251, 142, 255), 0 0 5px rgb(139, 0, 127);
+}

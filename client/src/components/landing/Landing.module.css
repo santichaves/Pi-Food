@@ -1,0 +1,62 @@
+
+
+
+
+.container{
+    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url('https://imgs.search.brave.com/sJYtVzrOBOe_Gcwv84eJpnzM4TBzYuZ-FXGXbRcx-ao/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3JlYXRpdmVt/YXJrZXQuY29tLzAu/MS4wL3BzLzcwNjQ5/NTAvMTgyMC8xMjEz/L20xL2Zwbncvd20x/L3JxYXFxbzFkamFq/cHZ2aTFoYWo0Y2hh/MG9tOGpldGlka3g5/cDBzY3gwYjVqaDdj/MXVhbXVmdnVtMmVv/Zmw4Y3EtLmpwZz8x/NTY5OTYzNDUwJnM9/ZTdlMmFlYWJkYjUw/NTRhODczNTE1YjI1/ZDE1ZDAwYjM');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fi;
+    height: 100%;
+    width: 100%;
+     
+}
+.button{
+    
+    position: relative;
+    background-color: rgb(4, 234, 246);
+    border-radius: 5px;
+    box-shadow: rgb(0, 76, 197) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 155px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+
+ 
+
+.text{
+    margin-top: 15rem;
+    margin-left: 50px;
+    
+font-size: 24px;
+letter-spacing: 0px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+margin-bottom: 50px;
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px rgb(251, 142, 255), 0 0 5px rgb(139, 0, 127);
+}

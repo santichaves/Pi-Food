@@ -1,0 +1,48 @@
+.container{
+    background-color: rgb(13, 0, 255);
+    background-size: contain;
+    font-size: x-small;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(251, 142, 255), 0 0 5px rgb(139, 0, 127);
+    color: aqua;
+    min-width: 100%;
+    min-height: 100vh;
+    background: url("https://i.pinimg.com/564x/94/35/3f/94353f3fd0309fb745d86834fe996810.jpg") no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.image{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+    
+    
+}
+
+.extra{
+    border: 3px rgb(2, 146, 165) solid;
+    font-size: medium;
+    font-style: oblique;
+    backdrop-filter: blur(7px);
+    
+}
+
+.button{
+    height: 3rem;
+    width: 6rem;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    font-size: medium;
+    color: aqua;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+    
+}
+.nav{
+    width: 6rem;
+    height: 9rem;
+}
