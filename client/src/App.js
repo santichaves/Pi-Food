@@ -3,6 +3,9 @@ import Landing from './components/landing/Landing'
 import Home from './components/home/Home'
 import Detail from './components/detail/detail'
 import Form from './components/form/form'
+import axios from 'axios'
+
+axios.defaults.baseURL = 'http://localhost:3001'
 
 function App() {
   return (

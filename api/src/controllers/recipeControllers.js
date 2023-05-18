@@ -11,7 +11,7 @@ const searchRecipeName = async (title) => {
    
    const infoApiRecipe = await axios
      .get(
-       `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.API_KEY4}&addRecipeInformation=true&instructionsRequired=true&number=100&title=${title}`
+       `https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.API_KEY}&addRecipeInformation=true&instructionsRequired=true&number=100&title=${title}`
      )
      .then((response) =>
        response.data.results
@@ -60,7 +60,7 @@ const dbRecipes= await Recipe.findAll({
  })
 
 
-   const infoApiRecipe = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.API_KEY4}&addRecipeInformation=true&instructionsRequired=true&number=100`)
+   const infoApiRecipe = await axios.get(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${process.env.API_KEY2}&addRecipeInformation=true&instructionsRequired=true&number=100`)
  
    .then(response => response.data.results.map((ele)=>{
     return{
@@ -86,7 +86,7 @@ const getRecipeById = async (id, location)=>{
 
    if(location === 'api'){
        
-    const apiRecipe= await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${process.env.API_KEY4}`)
+    const apiRecipe= await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${process.env.API_KEY}`)
    .then((response)=>{
        const ele = response.data;
        return {
